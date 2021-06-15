@@ -1,0 +1,288 @@
+@font-face{
+	font-family: "C";
+	src:url("../fonts/Chilanka-Regular.ttf");
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:16px;
+}
+
+body{
+	font-size:0px;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 75px;
+
+}
+
+#cabecera{
+	background-color: rgb(9, 3, 32);
+	position: fixed;
+	top: 0px;
+	text-align: center;
+	width: 100%;
+
+}
+
+figure{
+	width: 20%;
+	padding: 5px 0px;
+	display: inline-block;
+	min-width: 190px;
+
+}
+
+.empresa, .opcion{
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logotipo{
+	width: 75px;
+	display: inline-block;
+	vertical-align:middle;
+
+}
+
+#nombre{
+	font-size: 2rem;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	color: rgb(200, 195, 2);
+
+
+}
+
+#menuPrincipal{
+	width: 65%;
+	min-width: 300px;
+	display: inline-block;
+	text-align: right;
+}
+
+.opcion{
+	font-size: 1rem;
+	color: rgb(252, 235, 0);
+	padding: 10px;
+
+}
+
+.opcion:hover{
+	color:rgb(5, 142, 196);
+}
+
+.contenido{
+	padding: 3% 10%;
+	text-align: center;
+	min-width: 320px;
+
+}
+
+#quien{
+	background-color: rgb(0, 9, 87);
+}
+
+
+	#quien img, #quien article{
+		width: 50%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+
+	#quien img{
+		border-radius: 0px 20px;
+		width: 50%;
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+
+	#quien article{
+		width: 50%;
+		display: inline-block;
+		vertical-align: center;	
+		padding-left:50px ;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: left;
+	}
+
+	#quien h1{
+		font-size: 3.5rem;
+		color: rgb(255, 255, 255);
+		padding-bottom: 20px;
+	}
+
+	#quien p{
+		font-size: 1rem;
+		color: rgb(255, 255, 255);
+	}
+
+	#quien a, #proyecto a{
+		font-size: 1rem;
+		color: black;
+		display: block;
+		background-color: blueviolet;
+		width: 150px;
+		padding: 10px;
+		border-radius: 5px;
+		color:black;
+		border: 1px solid rgb(243, 1, 1);
+		text-align: center;
+	}
+
+	#quien a:hover{
+		color: rgb(184, 6, 41);
+	}
+
+	#quien a:active{
+		margin-top: 1px;
+	}
+
+	#filosofia{
+		background-color: rgb(0, 13, 134);
+		color: #fff;
+
+	}
+
+	#gerente{
+		width: 350px;
+		border-radius: 100%;
+		margin-bottom: 50px;
+	}
+
+	#filosofia p{
+		margin: 0 auto;
+		font-size: 2rem;
+		margin-bottom: 10px;
+		line-height: 2.5rem;
+
+	}
+
+	#filosofia h2{
+		font-size: 1.5rem;
+		font-family: italic;
+
+	}
+
+	#proyectos{
+		text-align: left;
+
+	}
+
+	#proyectos h1{
+		font-size: 3.5rem;
+		color: rgb(0, 0, 0);
+		padding-bottom: 30px;
+		text-align: center;
+
+	}
+
+	.proyecto{
+		width: 22.75%;
+		border: 1px solid#ccc;
+		text-align: center;
+		border-radius: 5px;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	.separarIzq{
+		margin-left: 15%;
+		
+	}
+	
+	.proyecto:hover{
+		box-shadow: 0 0 10px royalblue;
+
+	}
+
+	.proyecto img{
+		width: 100%;
+		height: 120px;
+	}
+
+	.proyecto h3{
+		font-size: 1.8rem;
+		padding: 10px 20px;
+		line-height: 1.5rem;
+	}
+
+	.proyecto a{
+		font-size: 1rem;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 5px;
+		width: 110px;
+	}
+
+	.proyecto p{
+		font-size: 1.5rem;
+		padding: 10px;
+	
+
+	}
+
+
+	#info{
+		background-color: rgb(211, 119, 0);
+		
+	}
+	#info img{
+		border-radius: 0px 20px;
+		padding-left: 40px;
+		padding-bottom: 120px;
+		width: 30%;
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+
+	#info article{
+		width: 10%;
+		display: inline-block;
+		vertical-align: center;	
+		padding-left:300px ;
+		text-align: left;
+		font-family: "Chilanka", Arial, Helvetica, sans-serif;
+	}
+	#info p{
+		font-size: 1.6rem;
+		
+		padding-top: 50px;
+		color: rgb(255, 255, 255);
+		text-align: justify;
+	}	
+	iframe{
+		display: block;
+		width: 400px;
+		height: 300px;
+		margin: 10px auto;
+		border: royalblue;
+	}
+	
+
+	#ubi {
+		background-color: rgb(214, 164, 0);
+		font-size: 3rem;
+		color: rgb(255, 255, 255);
+		text-align: center;
+		padding: 50px;
+
+	}
+
+	#hobbie h1{
+		font-size: 3rem;
+		padding: 35px;
+	}
+
+	
+
